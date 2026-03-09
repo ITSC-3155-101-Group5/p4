@@ -11,7 +11,7 @@ class States extends React.Component {
     super(props);
     console.log('window.models.states', window.models.states);
     this.state = {
-      substring: ' ',
+      substring: '',
     };
     this.handleChange = this.handleChange.bind(this);
   }
@@ -22,7 +22,7 @@ class States extends React.Component {
 
   getFilteredStates() {
     const { substring } = this.state;
-    const allStates = window.models.states;
+    const allStates = window.models.states();
 
     if (!substring) return allStates;
 
