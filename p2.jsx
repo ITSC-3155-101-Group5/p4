@@ -2,8 +2,12 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 import States from './components/states/States';
+import Header from './components/header/header';  // <-- import Header
 
 ReactDOM.render(
-  <States />,
-  document.getElementById('reactapp'),
+  <div>
+    <Header />  
+    <States /> 
+  </div>,
+  document.getElementById('reactapp')
 );
