@@ -1,10 +1,10 @@
-'use strict';
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Header from './components/header/Header';
-import Example from './components/example/Example';
-import States from './components/states/States';
+import Header from './header/Header';
+import Example from './example/Example';
+import States from './states/States';
 class P4 extends React.Component {
   constructor(props) {
     super(props);

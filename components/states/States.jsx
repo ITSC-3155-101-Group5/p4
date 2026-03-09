@@ -50,26 +50,26 @@ class States extends React.Component {
         </div>
 
 
-      {substring && (
-        <p className="states-filter-label">
-          Showing states container: <strong>"{substring}"</strong>
-        </p>
-      )}
+        {substring && (
+          <p className="states-filter-label">
+            Showing states container: <strong>&quot;{substring}&quot;</strong>
+          </p>
+        )}
 
-     {sortedStates.length === 0 ? (
-      <p className="states-no-match">
-        No states found matching "{substring}".
-      </p>
-     ) : (
-      <ul className="states-list">
-        {sortedStates.map(state => (
-          <li key={state} className="states-list-item">
-            {state}
-          </li>
-        ))}
-      </ul>
-     )}
-     </div> 
+        {sortedStates.length === 0 ? (
+          <p className="states-no-match">
+            No states found matching &quot;{substring}&quot;.
+          </p>
+        ) : (
+          <ul className="states-list">
+            {sortedStates.map(state => (
+              <li key={state} className="states-list-item">
+                {state}
+              </li>
+            ))}
+          </ul>
+        )}
+      </div>
     );
   }
 }
