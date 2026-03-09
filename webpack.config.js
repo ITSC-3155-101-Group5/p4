@@ -2,7 +2,7 @@ module.exports = {
   entry: {
     gettingStarted: "./gettingStarted.jsx",
     p2: "./p2.jsx",
-    p2: "./p4.jsx",
+    p4: "./p4.jsx",
   },
   module: {
     rules: [
@@ -29,7 +29,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ["*", ".js", ".jsx"],
+    extensions: [".*", ".js", ".jsx"],
   },
   output: {
     path: `${__dirname}/compiled`,
