@@ -103,7 +103,15 @@ class Example extends React.Component {
         <h1>Project 4 React.js Example</h1>
 
         <div className="motto-update">
-          {/* Your problem #1 motto displaying and updating widget goes here */}
+          <h2>{this.state.name}</h2>
+
+          <p>Motto: {this.state.motto}</p>
+
+          <input
+            type="text"
+            value={this.state.motto}
+            onChange={(e) => this.setState({ motto: e.target.value })}
+          />
         </div>
 
         <p>
