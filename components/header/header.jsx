@@ -15,7 +15,7 @@ class Header extends React.Component {
         </div>
 
         <div className="header-center">
-          <h1>Elijah's React Projects</h1>
+          <h1>Group 5's Project</h1>
           <p className="header-subtitle">Building cool web apps</p>
         </div>
 
