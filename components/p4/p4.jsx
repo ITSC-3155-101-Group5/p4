@@ -2,9 +2,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Header from './header/Header';
-import Example from './example/Example';
-import States from './states/States';
+import Header from '../header/header.jsx';
+import Example from '../example/Example.jsx';
+import States from '../states/States.jsx';
 class P4 extends React.Component {
   constructor(props) {
     super(props);
