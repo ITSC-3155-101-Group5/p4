@@ -8,7 +8,7 @@ class Header extends React.Component {
 
         <div className="header-left">
           <img
-            src="https://cdn-icons-png.flaticon.com/512/2721/2721297.png"
+            src="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
             alt="logo"
             className="header-logo"
           />
